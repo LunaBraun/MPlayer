@@ -1,0 +1,35 @@
+ * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+ }
+.container {
+  max-width: 500px;
+}
+
+#list {
+  margin: 0 auto;
+}
+
+.alert {
+  display: inline-block;
+  padding: 15px;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+  color: #3c763d;
+  background-color: #dff0d8;
+  margin: 3px 3px;
+  list-style: none;
+}
+
+.btn  {
+  display: inline-block;
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  color: #3c763d;
+  background-color: #dff0d8;
+  margin: 3px 3px;
+  list-style: none; 
+  box-shadow: 0px 2px 10px #000;
+}
