@@ -1,4 +1,4 @@
-const createDefElements = () => {
+function createDefElements () {
 	const elemCode = [65,83,68,70,71,72,74,75,76];
 
 	for (let i = 0; i < elemCode.length; i++) {
@@ -10,8 +10,8 @@ const createDefElements = () => {
 
 		list.appendChild(li);	
 	}
-}
-
+}	    
+	    	   
 addEventListener('keydown', (event) => {
 	 const btns = document.querySelectorAll('ul>li');
 
